@@ -3,7 +3,7 @@ import math
 import numpy as np
 
 ##kalmanfilter##
-filename='alice_los.csv'
+filename='alice_los.csv' ##change to bob_los.csv
 RSSI=[]
 hasil=[]
 with open(filename) as f:
